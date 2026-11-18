@@ -1,0 +1,14 @@
+# общее
+.DS_Store
+.idea/
+.vscode/
+*.log
+# server
+server/.cpcache/
+server/target/
+server/.nrepl-port
+# client
+client/node_modules/
+client/dist/
+# bot
+bot/*.qlf
