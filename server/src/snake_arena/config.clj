@@ -1,11 +1,16 @@
 (ns snake-arena.config
-  "Константы игры. TODO(У1): при желании читать из env/edn.")
+  "Константы игры согласно docs/game-rules.md и протоколу v1.")
 
 (def width 40)
 (def height 30)
 (def tick-ms 150)
+(def round-ms 180000)
+(def intermission-ms 5000)
+(def spawn-wait-ms 5000)
+(def join-cooldown-ms 5000)
+(def max-players 7)
+(def max-name-length 16)
 (def min-food 5)
 (def max-queued-turns 2)
-(def spawn-grace-ticks 3)
 (def ws-port 8080)
 (def tcp-port 9090)
